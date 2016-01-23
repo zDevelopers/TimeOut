@@ -1,0 +1,8 @@
+name: TimeOut
+version: 1.0-SNAPSHOT
+description: TimeOut
+main: eu.carrade.amaury.TimeOut.TimeOut
+
+author: AmauryCarrade
+
+softdepend: [UHPlugin]

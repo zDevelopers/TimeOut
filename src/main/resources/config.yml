@@ -1,0 +1,12 @@
+# The initial time given to a player when the time out mode is enabled for him/her (in seconds).
+initial-time: 600
+
+# Notifies players in the chat when they gain or lose seconds?
+notify:
+    onGain: true
+    onLoss: true
+    onTimeOut: true
+
+# Broadcast some events to the whole server?
+broadcast:
+    onTimeOut: false
