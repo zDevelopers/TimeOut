@@ -31,7 +31,7 @@
  */
 package eu.carrade.amaury.TimeOut;
 
-import fr.zcraft.zlib.components.configuration.ConfigurationItem;
+import fr.zcraft.quartzlib.components.configuration.ConfigurationItem;
 
 
 public final class Config

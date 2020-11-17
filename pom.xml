@@ -21,17 +21,17 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-shade-plugin</artifactId>
-				<version>2.3</version>
+				<version>2.4</version>
 				<configuration>
 					<artifactSet>
 						<includes>
-							<include>fr.zcraft:zlib</include>
+							<include>fr.zcraft:quartzlib</include>
 						</includes>
 					</artifactSet>
 					<relocations>
 						<relocation>
-							<pattern>fr.zcraft.zlib</pattern>
-							<shadedPattern>com.pgcraft.spectatorplus</shadedPattern>
+							<pattern>fr.zcraft.quartzlib</pattern>
+							<shadedPattern>YOUR.OWN.PACKAGE</shadedPattern>
 						</relocation>
 					</relocations>
 				</configuration>
@@ -53,8 +53,8 @@
 			<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
 		</repository>
 		<repository>
-			<id>carrade-repo</id>
-			<url>http://depot.carrade.eu/maven2/</url>
+			<id>zdevelopers-quartzlib</id>
+			<url>https://maven.zcraft.fr/QuartzLib</url>
 		</repository>
 		<repository>
 			<id>zDevelopers</id>
@@ -75,8 +75,8 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.zcraft</groupId>
-			<artifactId>zlib</artifactId>
-			<version>0.99-SNAPSHOT</version>
+			<artifactId>quartzlib</artifactId>
+			<version>0.0.1</version>
 		</dependency>
 	</dependencies>
 

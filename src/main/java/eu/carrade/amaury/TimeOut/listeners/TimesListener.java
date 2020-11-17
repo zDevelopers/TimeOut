@@ -36,7 +36,7 @@ import eu.carrade.amaury.TimeOut.events.PlayerGainsTimeEvent;
 import eu.carrade.amaury.TimeOut.events.PlayerLosesTimeEvent;
 import eu.carrade.amaury.TimeOut.events.PlayerTimesOutEvent;
 import eu.carrade.amaury.TimeOut.utils.ChatUtils;
-import fr.zcraft.zlib.components.i18n.I;
+import fr.zcraft.quartzlib.components.i18n.I;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;

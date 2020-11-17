@@ -35,9 +35,9 @@ import eu.carrade.amaury.TimeOut.Config;
 import eu.carrade.amaury.TimeOut.events.PlayerGainsTimeEvent;
 import eu.carrade.amaury.TimeOut.events.PlayerLosesTimeEvent;
 import eu.carrade.amaury.TimeOut.events.PlayerTimesOutEvent;
-import fr.zcraft.zlib.components.i18n.I;
-import fr.zcraft.zlib.tools.PluginLogger;
-import fr.zcraft.zlib.tools.text.MessageSender;
+import fr.zcraft.quartzlib.components.i18n.I;
+import fr.zcraft.quartzlib.tools.PluginLogger;
+import fr.zcraft.quartzlib.tools.text.MessageSender;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 

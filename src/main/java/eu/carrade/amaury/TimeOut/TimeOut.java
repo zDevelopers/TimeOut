@@ -34,17 +34,18 @@ package eu.carrade.amaury.TimeOut;
 import eu.carrade.amaury.TimeOut.listeners.ServerConnectionsListener;
 import eu.carrade.amaury.TimeOut.listeners.TimesListener;
 import eu.carrade.amaury.TimeOut.players.TimedPlayer;
-import fr.zcraft.zlib.components.configuration.Configuration;
-import fr.zcraft.zlib.components.i18n.I18n;
-import fr.zcraft.zlib.core.ZPlugin;
-import fr.zcraft.zlib.tools.runners.RunTask;
+import fr.zcraft.quartzlib.core.QuartzPlugin;
+import fr.zcraft.quartzlib.components.configuration.Configuration;
+import fr.zcraft.quartzlib.components.i18n.I18n;
+import fr.zcraft.quartzlib.core.QuartzPlugin;
+import fr.zcraft.quartzlib.tools.runners.RunTask;
 
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 
 
-public class TimeOut extends ZPlugin
+public class TimeOut extends QuartzPlugin
 {
     private static TimeOut INSTANCE;
 
